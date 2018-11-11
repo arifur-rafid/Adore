@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Press Recharge Button to Recharge "
+                android:layout_marginTop="30dp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:id="@+id/textView" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rechargeIB"
+                    android:layout_gravity="center"
+                    android:src="@drawable/recharge"
+                    android:background="#00ffffff" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".1">
+
+            <ImageButton
+                android:layout_width="355dp"
+                android:layout_height="354dp"
+                android:id="@+id/helpIB"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/help1"
+                android:background="#00ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="bubble button"
+                android:src="@drawable/bubble_btn_head"
+                android:layout_gravity="center"
+                android:id="@+id/bubblebtn"
+                android:background="#00ffffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

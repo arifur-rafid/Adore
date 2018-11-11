@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mdarifurrahman.adore.Mother_symptom_Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="85dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView25"
+                android:src="@drawable/symptomwide"
+                android:background="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Bleeding"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="If you spot or bleed (down there) during pregnancy, you’ll probably freak out a little bit — but the good news is that sometimes, a tinge of blood is no big deal. For example, if you had sex recently, you might have just irritated your cervix a bit (it’s more sensitive while your pregnant). Of course, bleeding can be a sign of something serious — miscarriage, placental abruption or placenta previa, so definitely notify your OB or midwife any time you have it."
+            android:id="@+id/textView31" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Abdominal pain"
+            android:id="@+id/textView32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Some aches and pains are to be expected during pregnancy. After all, baby’s getting bigger by the day, and your muscles and ligaments are doing a whole lot of stretching — discomfort caused by that is called round ligament pain isn’t worrisome. But if your pain is severe, constant or accompanied by bleeding or other symptoms, pick up the phone. Miscarriage, ectopic pregnancy or a cyst could cause pelvic or abdominal pain."
+            android:id="@+id/textView33" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Swollen hands or face"
+            android:id="@+id/textView34" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Yup, everything’s getting bigger and a little bit of swelling might be expected, but pay close attention to your hands and face. Any puffiness in your face and anything more than a little swelling in your hands could be a sign of preeclampsia, aka pregnancy-induced hypertension (PIH) or toxemia. So is severe, sudden swelling in the ankles and feet. Early detection is important with preeclampsia, so that baby (and you!) can be monitored closely, so if you see the swelling, make the call."
+            android:id="@+id/textView35" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rapid weight gain"
+            android:id="@+id/textView36" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="No, don’t stress about gaining weight (after all, you’re supposed to), but if you put on more than four pounds in a week, that could be another sign of preeclampsia."
+            android:id="@+id/textView37" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Itching"
+            android:id="@+id/textView38" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Here’s another (completely annoying) pregnancy symptom that could mean nothing at all or a huge risk to you and baby. Your skin could be itchy simply because it’s dry and stretched, or you could get a nasty rash called PUPPP, which is aggravating but not harmful at all. But if you have all-over itching, or your itchiness is more severe than normal, talk to your OB. He or she may have to do a special test to rule out cholestasis of pregnancy, a liver disorder that can cause serious issues, such as preterm labor and stillbirth."
+            android:id="@+id/textView39" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Back pain that doesn&apos;t go away"
+            android:id="@+id/textView40" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Back pain that just doesn’t quit? Call the doctor. He or she can check to make sure it’s just normal pregnancy pain and not a sign of kidney or bladder infection, cyst, miscarriage or preterm labor."
+            android:id="@+id/textView41" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Blurry vision"
+            android:id="@+id/textView42" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Hey, maybe you got up too fast and you’re experiencing some normal pregnancy dizziness. But blurry vision that’s persistent or comes along with other symptoms, such as swelling, abdominal pain, headache or rapid weight gain, could be a sign of preeclampsia or gestational diabetes, both of which require medical treatment."
+            android:id="@+id/textView43" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Fever"
+            android:id="@+id/textView44" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="You’re more vulnerable to cold and flu germs while you’re pregnant, so a fever is actually pretty likely to happen sometime during this nine months. But if your fever lasts longer than 24 to 36 hours, see the doctor. There are a number of viruses and conditions that can cause fever, and it’s important to get yours diagnosed and treated."
+            android:id="@+id/textView45" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Baby moving less often"
+            android:id="@+id/textView46" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Feeling baby kick? Make a mental note. Or heck, mark it down! If baby’s movements are pretty regular, that’s reassurance that everything’s a-okay, but if you notice a change in kicking patterns, it’s worth it to have a medical professional check on baby."
+            android:id="@+id/textView47" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gush of fluid"
+            android:id="@+id/textView48" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="This isn’t your average pregnancy discharge. Feeling constantly wet down there or having a trickle (or gush!) of fluid, can mean that your water has broken. If that’s the case and you’re not in labor yet, you’re likely to be within 24 hours. Either way, it’s important that your doctor knows ASAP!"
+            android:id="@+id/textView49" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mdarifurrahman.adore.General_query_Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#15047A">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:id="@+id/imageView24"
+                android:src="@drawable/askwide"
+                android:background="#048eff" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What are the first symptoms of pregnancy?"
+            android:id="@+id/textView20"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Missing a period is usually the first signal of a new pregnancy, although women with irregular periods may not initially recognize a missed period as pregnancy. During this time, many women experience a need to urinate frequently, extreme fatigue, nausea and/or vomiting, and increased breast tenderness. All of these symptoms can be normal. Most over-the-counter pregnancy tests are sensitive 9-12 days after conception, and they are readily available at most drug stores. Performing these tests early helps to allay confusion and guesswork. A serum pregnancy test (performed in a provider&apos;s office or laboratory facility) can detect pregnancy 8-11 days after conception."
+            android:id="@+id/textView21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="How Much Should I Eat Every Day?"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Most pregnant women require about 300 extra calories a day.  If you are underweight, you may need more.  About 70 grams of protein with at least 3 servings of dairy are also required daily.   Avoid undercooked meats and soft cheeses, like brie, feta, blue, and gorgonzola.  Hard cheeses that are pasteurized are Ok.  Most women gain somewhere between 25 to 35 pounds during the entire pregnancy, gaining about one pound a month for the first three month, and one pound a week for the last six months.  Some women even end up losing weight during the first three months."
+            android:id="@+id/textView24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Is it Ok to Eat Fish?"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Eating fish during pregnancy is controversial due to the mercury levels of seafood, which may be harmful to the fetus. Cooking does not change the mercury’s harmfulness.  Avoid fish with higher levels of mercury, such as mackerel, tile, swordfish, tuna, shark, crab, and lobster.  Also avoid sushi.  Otherwise, one serving a week of other cooked fish is considered acceptable during pregnancy.  Now that you’ve heard my answers to 5 of the 10 most common questions during pregnancy, you can use them as a reminder to meet with your obstetrician and discuss what is specifically right for you.  Each person is different, and each pregnancy is different.  My answers may not apply to everyone.  Therefore, it’s really important to open up the dialogue with your own doctor and find out what is safest for you and your baby. "
+            android:id="@+id/textView26" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What exercises are safe to do while I&apos;m pregnant?"
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Times have changed - women are now encouraged to stay active and fit during pregnancy. There are many safe activities you can enjoy while keeping fit during your pregnancy (unless your doctor has prescribed otherwise).      Swimming. This is a great activity because it helps strengthen your whole body and is a great cardiovascular exercise. Plus, it&apos;s low impact, it helps support your weight, and it keeps you cool. One thing, it&apos;s probably not a good idea to dive into a pool, especially later in your pregnancy.     A brisk walk. Walking is safe and effective, even if you&apos;re new to exercise. Jogging is also okay in moderation if you did it before you were pregnant. You&apos;ll want to avoid overheating and make sure to drink plenty of fluids. Plus, remember that are more off balance now, so be extra careful not to fall.     Tennis. If you played before you were pregnant, it&apos;s safe to do during pregnancy. You&apos;ll want to keep the pace moderate, playing doubles is a great way to do this. Again, you may have more problems with balance, so be careful, especially with sudden stops.     Golf and bowling. They may not offer as many benefits as other exercises, but these sports are a great way to increase your physical activity. Again, watch your balance.     Mind-body classes like tai chi, yoga and Pilates. These types of classes can do wonders for the management of stress and teach students new methods of relaxation. There are many specialty tapes available on the market and you are sure to find and try many new exercises using these tapes.     This is also not the time for contact spots where you could fall, injure yourself, or be struck in the abdomen, or badly shake the baby. Therefore, avoid these activities: scuba diving, water skiing, basketball, softball, baseball, horseback riding, and snow skiing. "
+            android:id="@+id/textView27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Can sex in pregnancy harm my baby?"
+            android:id="@+id/textView28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Wondering whether pregnant sex can harm your baby is common but there is usually no need to be concerned about this. Movements and sounds from outside and from your body are an everyday part of your baby’s world, so there’s no sense in which she can ‘know’ that you are having sex.  Your baby is cocooned inside the amniotic sac (a balloon of warm fluid that cushions her) and this prevents her seeing or feeling anything during penetrative sex. Also, the neck of your womb, or cervix, is sealed by a mucus plug that keeps your baby’s environment sterile so ejaculation, for instance, can’t harm her.   You may feel your baby move when you have sex, but this movement is due to the rocking she feels and the increase in your heart rate, rather than her being in distress. In fact, if you orgasm your blood flow also increases, thereby increasing the amount of oxygen and nutrients being delivered to your baby. During orgasm your bump may also harden because the act of orgasm causes contractions in the muscles of your uterus.  There may be some circumstances when you are advised to avoid penetrative sex."
+            android:id="@+id/textView29" />
+
+    </LinearLayout>
+</ScrollView>

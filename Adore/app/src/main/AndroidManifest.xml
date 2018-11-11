@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mdarifurrahman.adore">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo7"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Mother_button_Activity" />
+        <activity android:name=".EmergencyHomeActivity" />
+        <activity android:name=".FoodGuideActivity" />
+        <activity android:name=".MedicineActivity" />
+        <activity android:name=".VaccineActivity" />
+        <activity android:name=".CheckUpActivity" />
+        <activity android:name=".SafeVaccineActivity" />
+        <activity android:name=".UnsafeVaccineActivity" />
+        <activity android:name=".InformationMenuActivity" />
+        <activity android:name=".MomInformationActivity" />
+        <activity android:name=".ChildInformationActivity" />
+        <activity android:name=".EmergencyInformationActivity" />
+        <activity android:name=".Child_button_Activity" />
+        <activity android:name=".Mother_symptom_Activity" />
+        <activity android:name=".General_query_Activity" />
+        <activity android:name=".CreditActivity" />
+        <activity android:name=".Child_food_Activity" />
+        <activity android:name=".Child_Vaccine_Activity" />
+        <activity android:name=".Child_Symptom_Activity" />
+        <activity android:name=".Child_Care_Activity" />
+
+        <receiver android:name=".Alarm_Receiver" />
+
+        <service
+            android:name=".RingtonePlayingService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MotherFoodMenuActivity" />
+        <activity android:name=".FoodLimitActivity" />
+        <activity android:name=".FoodNutritionActivity" />
+        <activity
+            android:name=".ExtrasActivity"
+            android:label="Extras"
+            android:theme="@style/AppTheme">
+
+        </activity>
+    </application>
+
+</manifest>

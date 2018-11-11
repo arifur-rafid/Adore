@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Emergency Services">
+        <menu>
+            <item
+                android:id="@+id/nav_Hospital"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Hospitals" />
+            <item
+                android:id="@+id/nav_Ambulance"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ambulance" />
+            <item
+                android:id="@+id/nav_BloodBank"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Blood Bank" />
+        </menu>
+    </item>
+
+</menu>

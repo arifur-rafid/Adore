@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mdarifurrahman.adore.Child_Symptom_Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView43"
+            android:src="@drawable/symptomwide" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3339ef"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Blue lips (cyanosis)"
+                    android:id="@+id/textView95" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="If your baby’s lips are turning blue, or the mucus membranes in their mouth or tongue turn blue, this is a sign that they are not getting enough oxygen This condition is known as cyanosis."
+                    android:id="@+id/textView96" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3339ef"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Strained breathing"
+                    android:id="@+id/textView97" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="All babies grunt and groan from time to time. But if their breathing is consistently hard and fast, and you can see that they are using their chest muscles more than they should be and that their nostrils flare out, it may be a sign of respiratory distress"
+                    android:id="@+id/textView98" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3339ef"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Fever over 100.4 F or 38 C (in newborns)"
+                    android:id="@+id/textView99" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Fever in a newborn is very non-specific. It can be anything from a cold to meningitis, and we treat a fever more seriously in newborns"
+                    android:id="@+id/textView100" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3339ef"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Worsening jaundice (yellowing of the skin)"
+                    android:id="@+id/textView101" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="When they are born, if their liver is not up to speed, bilirubin can build up in the body and cause the skin to turn a yellowish color.&quot;  If bilirubin levels skyrocket, they can affect the brain, causing seizures and permanent damage."
+                    android:id="@+id/textView102" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3339ef"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dehydration"
+                    android:id="@+id/textView103" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="If your baby is not making wet diapers, then there is a worry about dehydration. Others signs of severe dehydration may include dry mouth, sunken eyes, and lethargy"
+                    android:id="@+id/textView104" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
